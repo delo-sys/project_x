@@ -15,7 +15,6 @@ if (isset($_POST['submit'])){
         echo "data inserted successfully";
     } else {
     die(mysqli_error($con));
-        
     }
 }
 ?>
